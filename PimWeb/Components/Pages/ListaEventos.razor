@@ -1,0 +1,41 @@
+@page "/lista-eventos"
+@using PimWeb.Models
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>📋 Eventos Cadastrados</h2>
+        <a href="/cadastro-evento" class="btn btn-primary">+ Novo Evento</a>
+    </div>
+
+    <table class="table table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Nome do Evento</th>
+                <th>Data de Início</th>
+                <th>Data de Término</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var e in eventosMock)
+            {
+                <tr>
+                    <td><strong>@e.Nome</strong></td>
+                    <td>@e.DataInicio.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@e.DataFim.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td><span class="badge bg-success">Ativo</span></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@code {
+    // Dados "Mockados" (Simulados) para a apresentação
+    private List<Evento> eventosMock = new List<Evento>
+    {
+        new Evento { Nome = "Workshop de C# e Blazor", DataInicio = DateTime.Now, DataFim = DateTime.Now.AddHours(4) },
+        new Evento { Nome = "Palestra de Arquitetura Web", DataInicio = DateTime.Now.AddDays(1), DataFim = DateTime.Now.AddDays(1).AddHours(2) },
+        new Evento { Nome = "Apresentação PIM V", DataInicio = DateTime.Now.AddDays(7), DataFim = DateTime.Now.AddDays(7).AddHours(1) }
+    };
+}

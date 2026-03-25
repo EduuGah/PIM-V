@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\eduga\\Downloads\\Pim-V-main\\PimWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PimWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PimWeb.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\eduga\\Downloads\\Pim-V-main\\PimWeb\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\eduga\\Downloads\\Pim-V-main\\PimWeb\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\eduga\\Downloads\\Pim-V-main\\PimWeb\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\eduga\\Downloads\\Pim-V-main\\PimWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PimWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PimWeb.props",
+      "PackagePath": "build\\PimWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PimWeb.props",
+      "PackagePath": "buildMultiTargeting\\PimWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PimWeb.props",
+      "PackagePath": "buildTransitive\\PimWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
